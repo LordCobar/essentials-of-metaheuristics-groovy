@@ -49,4 +49,7 @@ class FitnessProportionateSelection {
         }
         return new BigDecimal(1/sum)
     }
+    String toString() {
+        "FPS"
+    }
 }
